@@ -1,13 +1,31 @@
-# E-commerce
-This is the dynamic e-commerce website where customer can visit page, search products, register, add to cart, purchase products with Stripe payment system and it also have admin panel where admin can add, delete, update -- post, site &amp; user. Also we provide repairing service where user can check their offers based on their purchase.
+# E-commerce Website
 
-# Database configuration
-We have provided you a database file (.sql) inside database file folder from there you can configure database inside your localhost what you need to do is
-you just have to go to loacalhost phpmyadmin from there you need to create database with name electric-shop after creating database go inside that 
-database then go to import section and there you will see select file then select that electric-shop.sql file then click go button below.It's done congrats.
+This is a dynamic e-commerce platform where customers can browse products, search for items, register, add products to their cart, and complete purchases using the Stripe payment system. The site includes an admin panel where I can manage posts, site content, and users, with options to add, delete, or update them. Additionally, I offer a repair service where users can check offers based on their purchase history.
 
-# Stripe Configuration
-We have already provide stripe config file. You have to change the publishable and secret key with your own stripe account key.
-And Notice that you may be sufferring from stripe error.
-It's because stripe files isn't uploaded to this github due to some issues. So we have provided you zip file of stripe and vendor folder inside stripe.zip. So you need to unzip that stripe.zip file and place that stripe and vendor folder inside root folder. Finally stripe payment gateway will work.
+## Project Information
 
+This project was developed as part of the Internet and Web Programming Course at Vellore Institute of Technology.
+
+## Database Setup
+
+To configure the database on your localhost, follow these steps:
+
+1. Locate the provided `.sql` file in the `database` folder.
+2. Go to `localhost/phpmyadmin` and create a new database named `electric-shop`.
+3. Select the newly created database, go to the `Import` section, and upload the `electric-shop.sql` file.
+4. Click the "Go" button to complete the import.
+
+Congratulations, your database is now set up!
+
+## Stripe Configuration
+
+I've provided a Stripe configuration file, but you'll need to replace the publishable and secret keys with your own Stripe account credentials.
+
+Please note: You may encounter a Stripe-related error. This is because the Stripe files were not uploaded to GitHub due to certain issues. However, I have included a `stripe.zip` file containing the necessary `stripe` and `vendor` folders. 
+
+To resolve the issue:
+
+1. Unzip the `stripe.zip` file.
+2. Place the `stripe` and `vendor` folders into the root directory of your project.
+
+Once done, the Stripe payment gateway should work seamlessly.
